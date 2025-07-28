@@ -1,0 +1,82 @@
+.side_bar_khuyenmai-banhatgiong{
+  @media screen and (max-width: 991px) {
+    margin-top: 30px;
+  }
+  .widget-title-tintuc{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: $color-main-lisaviet;
+    font-weight: 600;
+  }
+  ul{
+    li{
+      &:nth-child(2n){
+        margin-right: 0;
+      }
+    }
+  }
+  .list_pro_sale-banhatgiong{
+    display:  flow-root;
+  }
+  .item_pro_sale-banhatgiong{
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    border:1px solid #f5f5f5;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s;
+    float: left;
+    height: 170px;
+    overflow: hidden;
+  }
+
+  .item_pro_sale-banhatgiong:hover{
+    border:1px solid #fd0b11;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+
+  .item_pro_sale-banhatgiong:hover .box_info_pro_sale a{
+    color: #fd0b11;
+  }
+
+  .item_pro_sale-banhatgiong:last-child{
+    margin-right: 0;
+  }
+  .sale-banhatgiong{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 5px;
+    background-color: #fd0b11;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .box_image_pro_sale{
+    img{
+      width: 100%;
+      height: 126px;
+      overflow:  hidden;
+    }
+  }
+  .box_info_pro_sale a{
+    width: 100%;
+    font-size: 13px;
+    color: #666;
+    padding: 8px 0;
+  }
+
+
+  .linkSaleLeft, .linkSaleLeft img{
+    float:left;
+    width:100%;
+    margin-top:15px;
+  }
+}

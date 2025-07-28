@@ -1,0 +1,138 @@
+.gb-header-lisaviet{
+}
+.gb-top-header_lisaviet{
+  background: $color-main1-lisaviet;
+  .gb-top-header_lisaviet-left{
+    ul{
+      li{
+        display: inline-block;
+        color: $color-white;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px;
+        i{
+          color: $color-main-lisaviet;
+          font-size: 20px;
+          margin-right: 5px;
+        }
+        @media screen and (max-width: 600px) {
+          font-size: 10px;
+          padding: 15px 10px;
+        }
+        @media screen and (max-width: 400px) {
+          padding: 15px 0;
+        }
+      }
+    }
+  }
+  &-right{
+    text-align: right;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    ul{
+      li{
+        display:  inline-block;
+        a{
+          display: block;
+          color: $color-white;
+          font-weight: 700;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 15px;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main1-lisaviet;
+          }
+          i{
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.gb-header-between_lisaviet{
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.2);
+  @media screen and (max-width: 991px) {
+    position: relative;
+  }
+  .logo_lisaviet{
+    padding: 10px 0;
+    @media screen and (max-width: 991px) {
+      padding: 15px 0;
+      width: 200px;
+    }
+    a{
+      display:  block;
+      img{
+        width: 100%;
+        height:  auto;
+        margin:  0 auto;
+      }
+    }
+  }
+  .gb-header-between_lisaviet-between{
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+    ul{
+      li{
+        display: inline-block;
+        padding: 10px 15px;
+        a{
+          display:  block;
+          color: #969696;
+          font-weight: 700;
+          font-size: 12px;
+          text-transform: uppercase;
+          i{
+            padding-right: 5px;
+            color: $color-main-lisaviet;
+          }
+        }
+      }
+    }
+  }
+}
+.gb-header-between_lisaviet-right{
+  display:  flex;
+  padding-top: 17px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  i{
+    display:  inline-flex;
+    align-items: center;
+    justify-content:  center;
+    color: $color-white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background: $color-main-lisaviet;
+  }
+  span{
+    background: #ee0717;
+    border: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 0 20px;
+    color: #fff;
+    margin-left: 5px;
+  }
+}
+.gb-header-bottom_lisaviet{
+  border-top: 1px solid #e4e4e4;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+}

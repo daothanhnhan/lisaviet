@@ -1,0 +1,23 @@
+.gb-partner_lisaviet{
+  h2{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #22292d;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    @media screen and (max-width: 991px) {
+      font-size: 24px;
+    }
+  }
+  p{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #7b7b7b;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.prices_lisaviet{
+  display:  block;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  text-align: center;
+  .prices_news_lisaviet{
+    color: $color-main-lisaviet;
+  }
+  .prices_old_lisaviet{
+    font-size: 14px;
+    color: #7a7a7a;
+    text-decoration: line-through;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,56 @@
+.footer-main-content_lisaviet{
+  background-color: #1f2033;
+  padding: 50px 0;
+  hr{
+    border-top: 1px solid $color-main1-lisaviet;
+  }
+}
+.copyright-area_lisaviet{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #7a7a7a;
+  }
+}
+.widget-title-footer-lisaviet{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-link-lisaviet{
+  ul{
+    li{
+      a{
+        font-size: 14px;
+        line-height: 30px;
+        color: $color-grey;
+      }
+    }
+  }
+}
+.footer-logo-lisaviet{
+  margin-bottom: 30px;
+  img{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+.footer-about-lisaviet{
+  ul{
+    li{
+      font-size: 14px;
+      line-height: 30px;
+      color: $color-grey;
+      span{
+        color: $color-main-lisaviet;
+        font-weight: 600;
+      }
+    }
+  }
+}

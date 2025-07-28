@@ -1,0 +1,19 @@
+.footer-address-lisaviet{
+  h4{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-main-lisaviet;
+  }
+  ul{
+    li{
+      color: #7a7a7a;
+      line-height: 30px;
+      font-size: 16px;
+      i{
+        font-weight: 600;
+        margin-right: 5px;
+      }
+    }
+  }
+}

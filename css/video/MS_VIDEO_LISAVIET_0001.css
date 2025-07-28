@@ -1,0 +1,14 @@
+.gb-videoclipsanpham_lisaviet h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #22292d;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 0; }
+
+.gb-videoclipsanpham_lisaviet img {
+  margin: 0 auto; }

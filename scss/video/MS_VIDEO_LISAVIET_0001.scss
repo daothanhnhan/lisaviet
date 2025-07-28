@@ -1,0 +1,23 @@
+.gb-videoclipsanpham_lisaviet{
+  background: url("../images/sl12.jpg") no-repeat center center;
+  background-size: cover;
+  padding:  50px 0;
+  .gb-videoclipsanpham_lisaviet-title{
+    margin-bottom:  30px;
+    h2{
+      font-size: 36px;
+      font-weight: bold;
+      font-style: italic;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #22292d;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+    }
+    img{
+      margin:  0 auto;
+    }
+  }
+}

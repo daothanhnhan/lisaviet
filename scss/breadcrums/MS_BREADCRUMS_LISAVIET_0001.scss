@@ -1,0 +1,15 @@
+.gb-breadcrumbs_lisaviet{
+  background: url("../images/aboutimg.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hero-title-breadcrums_lisaviet{
+    color: $color-main-lisaviet;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px $color-1;
+    text-align: center;
+  }
+}

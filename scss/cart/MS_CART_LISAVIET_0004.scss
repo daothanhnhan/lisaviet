@@ -1,0 +1,14 @@
+.gb-header-cart_lisaviet{
+  text-align: right;
+  .btn-cart-lisaviet{
+    background:  $color-main-lisaviet;
+    border: none;
+    text-shadow:  none;
+    box-shadow:  none;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius:  0;
+    padding: 17px 20px;
+    color: $color-white;
+  }
+}

@@ -1,0 +1,40 @@
+.gb-news-letter_lisaviet{
+  background: url("../images/375656f94762f5a.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.gb-footer-newletter_lisaviet{
+  h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-main1-lisaviet;
+  }
+  .input-group{
+    border-radius: 4px;
+  }
+  .form-control{
+    height: 44px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0;
+  }
+  p{
+    color: $color-white;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  span{
+    .btn-theme{
+      height: 44px;
+      color: $color-white;
+      border-radius: 0;
+      border: 1px solid #dbdbdb;
+      background: $color-main-lisaviet;
+      padding: 6px 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}

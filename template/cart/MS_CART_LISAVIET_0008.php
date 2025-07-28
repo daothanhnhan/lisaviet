@@ -1,0 +1,1 @@
+ <a href="javascript:void(0)" class="product_cart" onclick="load_url('<?= $row['product_id'] ?>', '<?= $rowLang['lang_product_name'] ?>', '<?= $row['product_price']-($row['product_price']*($row['product_price_sale']/100));?>')">Mua ngay</a>
